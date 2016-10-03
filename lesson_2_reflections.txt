@@ -1,0 +1,25 @@
+What happens when you initialize a repository? Why do you need to do it?
+  建立儲存庫, 但並沒有將資料夾內的檔案加入追蹤,  一定要做因為在這之後我們才可以用 git 的相關功能
+  
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+  staging area 是個中介位置的空間, 用來存放即將提交的檔案, 
+  他將檔案邏輯上綁再一起, 在一次提交中可以將相關檔案一起提交是他主要的價值
+  工作目錄就只是單純沒有版本控管的目錄
+  儲存庫則是一個保有所有檔案版本紀錄快照的地方
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
