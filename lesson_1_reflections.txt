@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you spot the bug? 
+
+It was helpful because...
+
+1. 可以讓電腦幫我們留心拼字錯誤的問題, 讓設計師專注在程式邏輯本身
+2. 當 bug 出現時, 前後版本的直接對比, 可明確指出做了什麼更動, 根據這些資訊, 設計師可以去思考這些更動跟 bug 的關聯性為何, 增進除錯效率
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+1. 在專案完成後可以回顧整個開發流程, 回憶當時的思路狀態
+
+2. 進行更進一步的程式碼優化時, 可以對比前後版本的效能差異, 以及保有當初的寫法
+
+3. 在進行另外的專案時有類似的功能實作時, 可以利用此專案的程式碼 (自己寫的現成例子最方便了
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+1. 自動 commit 可以避免人太專心在寫程式時忘記 commit 的問題, 但是過多雜亂無意義的版本同時也會造成程式設計者的困擾
+
+2. mannually choosing when to creat a commit is a good idea, because each commit would be a meaningful version.
+   缺點就是人可能會忘記 commit
+   
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separatel
+
+我覺得以寫程式來說, 很多檔案都會相互關聯, 所以 git 的做法把檔案都綁再一起, 每一個 commit 都是這些檔案的快照, 是個很適合程式文件的作法
+
+Google Docs 的用途比較偏向單純的文書編輯, 不太會有跨檔案的連結, 編輯以及變更, 所以採取的是單一檔案的更新
+
+How can you use the commands git log and git diff to view the history of files?
+
+先用 git log 去找出要比較的兩個版本, 在 git diff file1 file2 
+
+How might using version control make you more confident to make changes that could break something?
+
+因為版本控管軟體保留了各個版本 以及 git checkout 可以隨時切換到該 commit 的狀態檢查 bug, 我相信這會讓程式設計是更有信心去做更大規模的程式碼改寫。
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+主要學習 git 是希望可以利用 git 開發程式專案吧
+但短期的目標應該是利用 git 這個版本控管軟體記錄學習新語言 python html css 的 範例程式  測試程式吧
