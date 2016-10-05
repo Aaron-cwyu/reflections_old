@@ -13,6 +13,9 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  在 commit 前先 git diff --staged 比較一下變動的部分是否屬於同一邏輯
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
