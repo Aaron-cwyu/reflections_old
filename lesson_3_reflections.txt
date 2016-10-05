@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+推送到遠端 github 上算是一種異地輩分的概念吧, 可以避免硬碟壞掉全部資料損毀的問題
+所以當我想要輩分的時候我會推送到 github 上, 不過可能會是要付費的 private repository
